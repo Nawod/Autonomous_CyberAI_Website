@@ -179,6 +179,9 @@ body{
 .main-timeline .description {
     margin-bottom: 0
 }
+.main-timeline .poster img{
+    width: 100%;
+}
 
 .main-timeline .timeline:nth-child(2n) .date-content {
     float: right
