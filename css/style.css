@@ -348,25 +348,22 @@ header .navbar {
 #team {
   padding: 130px 0;
   margin-top: -50px;
-  background: #114e5d;
+  background: #f7f7f7;
 }
-#team .title h2,
-#team .title p {
-  color: #fff;
-}
-#team .title h2:before, #team .title h2:after {
-  background: #fff;
-}
+
 #team .block {
+  background: #0b8e89;
   color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.3);
 }
 #team .block .card-img {
   display: inline-block;
   width: 100%;
+  border-radius: 10px 10px 0px 0px;
 }
 
 #team .block ul {
-  border: 2px solid #fff;
   padding-bottom: 35px;
   margin-bottom: 15px;
 }
@@ -396,7 +393,7 @@ header .navbar {
   font-weight: 600;
   transition: 0.3s;
   background: #fff;
-  color: #114e5d;
+  color: #0b8e89;
   margin-bottom: 10px;
 }
 #team .block .btn-view:hover {
@@ -406,8 +403,8 @@ header .navbar {
 }
 
 #team .block:hover {
-  background:rgba(255, 255, 255, 0.17);
-  box-shadow: 0px 5px 12px 5px rgb(0, 0, 0);
+  background:#0c6461;
+  box-shadow: 0px 3px 10px 2px rgb(110, 110, 110);
 }
 
 #team .block .btn-download {
@@ -419,7 +416,7 @@ header .navbar {
   font-weight: 600;
   transition: 0.3s;
   background: #fff;
-  color: #114e5d;
+  color: #0b8e89;
 }
 #team .block .btn-download:hover {
   background: #33a2be;
@@ -433,16 +430,19 @@ header .navbar {
 #pricing-table {
   padding: 130px 0;
   margin-top: -50px;
-  background: #f1f1f1;
+  background: #f7f7f7;
 }
 .Presentaion .block {
-  background:rgba(25, 176, 202, 0.151);
+  background:#33a2be3a;
   padding-bottom: 15px ;
   margin-bottom: 15px;
   align-items: center;
-  border: 1px solid rgba(0, 0, 0, 0.185);
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.3)
 }
-
+.Presentaion .block img{
+  border-radius: 10px 10px 0px 0px;
+}
 #pricing-table  .content {
   padding:15px 20px; 
   text-align: center;
@@ -525,7 +525,7 @@ header .navbar {
 #blog{
   padding: 130px 0;
   margin-top: -50px;
-  /* background: #000000; */
+  background: #f7f7f7;
 }
 
 #blog .team-title h3{
@@ -683,7 +683,7 @@ header .navbar {
 /* Contact */
 #contact-form {
   padding: 100px 0;
-  background:#f9f9f9;
+  background:#f7f7f7;
 }
 .single-contact{
   display: flex;
