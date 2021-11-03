@@ -6,7 +6,7 @@
 ===================== */
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 999px) and (max-width: 1024px) {
   #banner .block h1{
     margin-bottom: 25px;;
   }
@@ -22,8 +22,38 @@
   #team .team-overlay {
     padding: 10px;
   }
-}
+  .profile .icons-team {
+    margin-left: 85px;
+  }
 
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+  .profile .card{
+    width: 250px;
+    height: 325px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
+  }
+  .profile .wrapper .title{
+    visibility: visible;
+  }
+  .profile .icons a{
+    opacity: 1;
+    margin-top: 40px;
+  }
+  .outer{
+    display: none;
+  }
+  .Supervisor .p1{
+    margin-left: 0px;
+  }
+  .Supervisor .p2{
+    margin-right: 0px;
+  }
+  #blog .members h3{
+    margin-top: 50px;
+  }
+}
 
 
 /* =====================
@@ -56,6 +86,31 @@
   #blog-left .blog-img .col-md-6 img{
     margin-bottom: 20px;
   }
+  .profile .card{
+    width: 250px;
+    height: 325px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
+  }
+  .profile .wrapper .title{
+    visibility: visible;
+  }
+  .profile .icons a{
+    opacity: 1;
+    margin-top: 40px;
+  }
+  .outer{
+    display: none;
+  }
+  .Supervisor .p1{
+    margin-left: 0px;
+  }
+  .Supervisor .p2{
+    margin-right: 0px;
+  }
+  #blog .members h3{
+    margin-top: 50px;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 639px) {
@@ -64,6 +119,31 @@
   }
   #banner .block .buttons{
     margin-bottom: 30px;
+  }
+  .profile .card{
+    width: 250px;
+    height: 325px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
+  }
+  .profile .wrapper .title{
+    visibility: visible;
+  }
+  .profile .icons a{
+    opacity: 1;
+    margin-top: 40px;
+  }
+  .outer{
+    display: none;
+  }
+  .Supervisor .p1{
+    margin-left: 0px;
+  }
+  .Supervisor .p2{
+    margin-right: 0px;
+  }
+  #blog .members h3{
+    margin-top: 50px;
   }
 }
 
@@ -149,5 +229,40 @@
     margin-bottom: 20px;
   }
 
-
+  .profile .card{
+    width: 250px;
+    height: 325px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
+  }
+  .profile .wrapper .title{
+    visibility: visible;
+  }
+  .profile .icons a{
+    opacity: 1;
+    margin-top: 40px;
+  }
+  .outer{
+    display: none;
+  }
+  .Supervisor .p1{
+    margin-left: 0px;
+  }
+  .Supervisor .p2{
+    margin-right: 0px;
+  }
+  #blog .members h3{
+    margin-top: 50px;
+  }
+  .single-contact p{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  .contact-icon{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    color: #33a2be;
+    font-size: 35px;
+  }
 }
