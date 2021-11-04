@@ -3,24 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,100);
 @import url(https://fonts.googleapis.com/css?family=Lora:400italic);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-/* ==================
- *
- *google fonts 
- *
- *===================*/
 
-/* ==================
- *
- *var section 
- *
- *===================*/
-/*****  font size  ******/
-/*****  Colors  ******/
-/* ==================
- *
- *	Reset Class Css
- *
- *===================*/
 body {
   line-height: 24px;
   font-size: 14px;
@@ -65,6 +48,7 @@ a:active {
  *  Global Class 
  *
  *===================*/
+
 .btn {
   font-size: 15px;
   text-transform: uppercase;
@@ -155,6 +139,8 @@ a:active {
  *
  *===================*/
 /* header style */
+
+
 header {
   padding: 20px 0;
   background: #fff;
@@ -331,59 +317,59 @@ header .navbar {
 
 /* Domain */
 
-#features {
+#domains {
   margin-top: -50px;
-  background: linear-gradient(180deg, #e7e7e7 10%, #f7f7f7 100%);;
-  padding: 100px 0 80px;
+  background: linear-gradient(180deg, #e1e4e7d8 10%, #f7f7f7 100%);;
+  padding: 130px 0 80px;
 }
 
 /* milestone */
-#portfolio {
+#milestones {
   padding: 150px 50px;
   margin-top: -50px;
   /* background-color: #0b8e89; */
 }
 
 /* Documents section */
-#team {
+#document {
   padding: 130px 0;
   margin-top: -50px;
   background: #f7f7f7;
 }
 
-#team .block {
+#document .block {
   background: #0b8e89;
   color: #fff;
   border-radius: 10px;
   box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.3);
 }
-#team .block .card-img {
+#document .block .card-img {
   display: inline-block;
   width: 100%;
   border-radius: 10px 10px 0px 0px;
 }
 
-#team .block ul {
+#document .block ul {
   padding-bottom: 35px;
   margin-bottom: 15px;
 }
-#team .block ul li p {
+#document .block ul li p {
   text-transform: uppercase;
   padding: 5px;
   margin-bottom: 10px;
 }
-#team .block ul li:first-child {
+#document .block ul li:first-child {
   margin-bottom: 26px;
 }
-#team .block ul li h4 {
+#document .block ul li h4 {
   text-transform: uppercase;
   font-size: 20px;
 }
 
-#team .block ul li:last-child {
+#document .block ul li:last-child {
   color: #fff;
 }
-#team .block .btn-view {
+#document .block .btn-view {
   width: 135px;
   border-color: #fff;
   border-radius: 25px;
@@ -396,18 +382,18 @@ header .navbar {
   color: #0b8e89;
   margin-bottom: 10px;
 }
-#team .block .btn-view:hover {
+#document .block .btn-view:hover {
   background: #33a2be;
   border-color: #33a2be;
   color: #fff;
 }
 
-#team .block:hover {
+#document .block:hover {
   background:#0c6461;
   box-shadow: 0px 3px 10px 2px rgb(110, 110, 110);
 }
 
-#team .block .btn-download {
+#document .block .btn-download {
   border-color: #fff;
   border-radius: 25px;
   color: #fff;
@@ -418,7 +404,7 @@ header .navbar {
   background: #fff;
   color: #0b8e89;
 }
-#team .block .btn-download:hover {
+#document .block .btn-download:hover {
   background: #33a2be;
   border-color: #33a2be;
   color: #fff;
@@ -427,7 +413,7 @@ header .navbar {
 
 /* Presentaion */
 
-#pricing-table {
+#presentaion {
   padding: 130px 0;
   margin-top: -50px;
   background: #f7f7f7;
@@ -443,21 +429,21 @@ header .navbar {
 .Presentaion .block img{
   border-radius: 10px 10px 0px 0px;
 }
-#pricing-table  .content {
+#presentaion  .content {
   padding:15px 20px; 
   text-align: center;
 }
-#pricing-table .content h4 {
+#presentaion .content h4 {
   text-transform: capitalize;
   position: relative;
   margin: 20px 0 10px;
   padding: 10px 0;
 }
-#pricing-table .content h4 a {
+#presentaion .content h4 a {
   color: #333;
 }
 
-#pricing-table .content h4::before {
+#presentaion .content h4::before {
     content: '';
     position: absolute;
     left: 45%;
@@ -469,15 +455,15 @@ header .navbar {
     -o-transition: .3s all;
     transition: .3s all;
 }
-#pricing-table .content small {
+#presentaion .content small {
   color: #999;
 }
-#pricing-table .content p {
+#presentaion .content p {
   margin-top: 10px;
   color: #777;
 }
 
-#pricing-table .block .btn-view {
+#presentaion .block .btn-view {
   width: 135px;
   border-color: #fff;
   border-radius: 25px;
@@ -490,19 +476,19 @@ header .navbar {
   color: #33a2be;
   margin-bottom: 10px;
 }
-#pricing-table .block .btn-view:hover {
+#presentaion .block .btn-view:hover {
   background: #33a2be;
   border-color: #33a2be;
   color: #fff;
 }
 
-#pricing-table .block:hover {
+#presentaion .block:hover {
   background:rgba(74, 167, 37, 0.17);
   box-shadow: 0px 3px 10px 2px rgb(110, 110, 110);
   border: none;
 }
 
-#pricing-table .block .btn-download {
+#presentaion .block .btn-download {
   border-color: #fff;
   border-radius: 25px;
   color: #fff;
@@ -513,7 +499,7 @@ header .navbar {
   background: #fff;
   color: #33a2be;
 }
-#pricing-table .block .btn-download:hover {
+#presentaion .block .btn-download:hover {
   background: #33a2be;
   border-color: #33a2be;
   color: #fff;
@@ -522,13 +508,13 @@ header .navbar {
 /* Team */
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
-#blog{
+#team{
   padding: 130px 0;
   margin-top: -50px;
   background: #f7f7f7;
 }
 
-#blog .team-title h3{
+#team .team-title h3{
   text-transform: uppercase;
   /* color: #fff; */
   font-size: 30px;
@@ -539,11 +525,11 @@ header .navbar {
   margin-bottom: 35px;
   text-align: center;
 }
-#blog .members h3{
+#team .members h3{
   margin-top: 10px;
 }
 
-#blog .profile{
+#team .profile{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -562,7 +548,7 @@ header .navbar {
 .profile .card:hover{
   width: 250px;
   height: 325px;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
 }
 .profile .wrapper .profile-img{
@@ -709,84 +695,20 @@ header .navbar {
 }
 
 /* ================ Home end ========================= */
-/* =====================
-   contact page style
-   ===================== */
-#global-header {
-  background: url(../img/contact-slider-img.jpg);
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0 90px;
-  text-align: center;
-  position: relative;
-}
-#global-header:before {
-  position: absolute;
-  z-index: 99;
-  background: rgba(60, 59, 72, 0.69);
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: '';
-  z-index: 1;
-}
-#global-header .block {
-  position: relative;
-  z-index: 10;
-  color: #fff;
-}
-#global-header .block h1 {
-  font-size: 50px;
-  margin-top: 20px;
-}
-#global-header .block p {
-  font-size: 15px;
-  padding-top: 10px;
-  font-family: 'Lora', serif;
-}
 
-/* ================ Contact end ========================= */
-/* =====================
-   Service page style
-   ===================== */
-#client-logo {
-  padding: 0 0 100px;
-  text-align: center;
-}
-#client-logo a {
-  padding: 14px 24px;
-  display: block;
-}
-#client-logo a img {
-  transition: 0.3s;
-  margin: 0 auto;
-}
-#client-logo a:hover img {
-  transform: scale(1.2);
-}
+/* Footer */
 footer {
-  background: #202322;
+  background: #fff;
   padding: 42px 0 65px 0;
   text-align: center;
+  box-shadow: 0px -2px 10px #000;
 }
 footer p {
   font-size: 14px;
-  color: #fff;
+  color: #000;
   line-height: 1;
   padding-top: 26px;
 }
-/* =====================
-   Blog Post
-   ===================== */
-
-
-
-
-/* =====================
-   Blog Page
-   ===================== */
-
 
 
 
