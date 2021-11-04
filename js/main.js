@@ -88,6 +88,8 @@ $(document).ready(function() {
     // Animated Scrolling
     (function(){
         var topoffset = 0;
+
+          // explore scroll function
           $('#scroll').click(function() {
             if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
               var target = $(this.hash);
@@ -101,6 +103,7 @@ $(document).ready(function() {
             } //location hostname
           }); //on click
 
+          // mouse icon scroll function
           $('#scroll2').click(function() {
             if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
               var target = $(this.hash);
@@ -114,12 +117,63 @@ $(document).ready(function() {
             } //location hostname
           });
 
+          // header logo scroll function
+          $('#scroll3').click(function() {
+            if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top-topoffset
+                }, 1000);
+                return false;
+              } // target.length
+            } //location hostname   
+          });
+
+          // read less scroll function
+          $('#scroll4').click(function() {
+            // literature read less function
+            const see_more = document.querySelector("#see-more");
+            const see_less = document.querySelector("#see-less");
+
+            document.querySelector("#less-view").style.display = "block";
+            document.querySelector("#more-view").style.display = "none";
+            see_more.style.display = "flex";
+            see_less.style.display = "none";
+
+            if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top-topoffset
+                }, 1000);
+                return false;
+              } // target.length
+            } //location hostname
+            
+          });
+
           $.scrollUp({
             scrollDistance: 2000,
             scrollSpeed: 1200,
           });
       }())
+
+      
  
-
-
 });
+
+// Literature content reed more & less
+const see_more = document.querySelector("#see-more");
+const see_less = document.querySelector("#see-less");
+
+see_more.onclick = function(){
+  document.querySelector("#less-view").style.display = "none";
+  document.querySelector("#more-view").style.display = "block";
+  see_less.style.display = "flex";
+  see_more.style.display = "none";
+}
+
+

@@ -10,19 +10,18 @@
 		<!-- Css link -->
 		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/owl.carousel.css">
-		<link rel="stylesheet" href="css/owl.transitions.css">
-		<link rel="stylesheet" href="css/animate.min.css">
-		<link rel="stylesheet" href="css/lightbox.css">
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/preloader.css">
-		<link rel="stylesheet" href="css/image.css">
-		<link rel="stylesheet" href="css/icon.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/responsive.css">
-		<link rel="stylesheet" href="css/domain-tabs.css">
-		<link rel="stylesheet" href="css/milestone.css">
+		<link rel="stylesheet" href="./css/font-awesome.min.css">
+		<link rel="stylesheet" href="./css/owl.carousel.css">
+		<link rel="stylesheet" href="./css/owl.transitions.css">
+		<link rel="stylesheet" href="./css/animate.min.css">
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/preloader.css">
+		<link rel="stylesheet" href="./css/image.css">
+		<link rel="stylesheet" href="./css/icon.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/responsive.css">
+		<link rel="stylesheet" href="./css/domain-tabs.css">
+		<link rel="stylesheet" href="./css/milestone.css">
 
 	</head>
 <!-- Body -->
@@ -41,7 +40,7 @@
 					
 					<!-- logo -->
 					<h1 class="navbar-brand">
-						<a href="#body"><img src="img/logo2.png" height="60" width="70" alt=""></a>
+						<a id="scroll3" href="#top"><img src="./img/logo2.png" height="60" width="70" alt=""></a>
 					</h1>
 					<!-- /logo -->
                 </div>
@@ -50,7 +49,7 @@
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav menu">
                         <li><a href="#top">Home</a></li>
-                        <li><a href="#domains">Domain</a></li>
+                        <li><a href="#domains">Domains</a></li>
                         <li><a href="#milestones">Milestone</a></li>
                         <li><a href="#document">Document</a></li>
                         <li><a href="#presentaion">Presentation</a></li>
@@ -72,7 +71,7 @@
 				<div class="row">
 					<div class="col-lg-12 m-auto text-center col-sm-12 col-md-12">
 						<div class="block">
-							<img src="img/logo.png" alt="ACAI Logo">
+							<img src="./img/logo.png" alt="ACAI Logo">
 							<h1>We Provide Anomaly Detection Based NIDS for Everyone.</h1>
 							<div class="buttons">
 								<a id="scroll" href="#domains" class="btn btn-learn">EXPLORE</a>
@@ -99,44 +98,61 @@
 							<div id="tabs-section" class="tabs">
 								<ul class="tab-head">
 									<li>
-										<a href="#tab-1" class="tab-link active l1"> <span class="tab-icons"><img src="img/icons/literature.png" alt=""></span> <span class="tab-label">Literature</span></a>
+										<a href="#tab-1" class="tab-link active l1"> <span class="tab-icons"><img src="./img/icons/literature.png" alt=""></span> <span class="tab-label">Literature</span></a>
 									</li>
 									<li>
-										<a href="#tab-2" class="tab-link"> <span class="tab-icons"><img src="img/icons/magnifying-glass.png" alt=""></span> <span class="tab-label">Research Problem</span></a>
+										<a href="#tab-2" class="tab-link"> <span class="tab-icons"><img src="./img/icons/magnifying-glass.png" alt=""></span> <span class="tab-label">Research Problem</span></a>
 									</li>
 									<li>
-										<a href="#tab-3" class="tab-link"> <span class="tab-icons"><img src="img/icons/objective.png" alt=""></span> <span class="tab-label">Objectives</span></a>
+										<a href="#tab-3" class="tab-link"> <span class="tab-icons"><img src="./img/icons/objective.png" alt=""></span> <span class="tab-label">Objectives</span></a>
 									</li>
 									<li>
-										<a href="#tab-4" class="tab-link"> <span class="tab-icons"><img src="img/icons/idea1.png" alt=""></span> <span class="tab-label">Solution</span></a>
+										<a href="#tab-4" class="tab-link"> <span class="tab-icons"><img src="./img/icons/idea1.png" alt=""></span> <span class="tab-label">Solution</span></a>
 									</li>
 									<li>
-										<a href="#tab-5" class="tab-link l4"> <span class="tab-icons"><img src="img/icons/technology.png" alt=""></span> <span class="tab-label">Technologies</span></a>
+										<a href="#tab-5" class="tab-link l4"> <span class="tab-icons"><img src="./img/icons/technology.png" alt=""></span> <span class="tab-label">Technologies</span></a>
 									</li>
 								</ul>
 
 								<section id="tab-1" class="tab-body entry-content active active-content">
-									<span class="tab-sec-icons"><img src="img/icons/literature2.png" alt=""></span>
+									<span class="tab-sec-icons"><img src="./img/icons/literature2.png" alt=""></span>
 									<h2>Literature</h2>
-									<p>With the advancement in technology which has made huge advances in packet capture and has designed both software and hardware solutions to capture packets across the network, this research mainly focuses on network data which are gathered from multiple sources. It also focuses on the security of the network where the data transmitted over the communication medium should be well secured 
+									<p id="less-view" style="display:block;">With the advancement in technology which has made huge advances in packet capture and has designed both software and hardware solutions to capture packets across the network, this research mainly focuses on network data which are gathered from multiple sources. It also focuses on the security of the network where the data transmitted over the communication medium should be well secured 
 										since there is a possibility of man in the middle attack where the hacker could obtain the data and re-insert a false message. It is needed to make sure that data is being collected from various sources are used for network monitoring. The authors have found that DAG technology is used as a hardware solution since it can capture 100G of packet size but due to its high cost compared to 
 										software solution, it is considered inefficient. 
-									<div class="buttons">
-										<a href="blog.html">Read More</a>
+									</p>
+									<p id="more-view" style="display:none;">With the advancement in technology which has made huge advances in packet capture and has designed both software and hardware solutions to capture packets across the network, this research mainly focuses on network data which are gathered from multiple sources. It also focuses on the security of the network where the data transmitted over the communication medium should be well secured 
+										since there is a possibility of man in the middle attack where the hacker could obtain the data and re-insert a false message. It is needed to make sure that data is being collected from various sources are used for network monitoring. The authors have found that DAG technology is used as a hardware solution since it can capture 100G of packet size but due to its high cost compared to 
+										software solution, it is considered inefficient. Moreover, it has been mentioned that by focusing on capturing data the identification of well-known ports and DPI (deep packet inspection) are the mainstays of conventional approaches to network traffic classification. However, there are many new cyber threats that could easily bypass these kinds of traditional methods and since the 
+										use of HTTPS governments are promoting laws to prevent organizations in inspecting data.
+										<br>One of research study proposed deep learning approach for building an IDS based on recurrent neural networks which has a strong modeling ability for intrusion detection with high accuracy was trained using commonly used dataset known as NSL-KDD which is a revised and refined version of KDD99 dataset. Another proposed method 
+										study in reference used deep learning method with the help of autoencoders and random forest algorithm for intrusion detection and it was trained using both KDD99 and NSL-KDD.
+										<br>One of the research authors believed that analyzing network packets as paragraph vectors using NLP algorithm would learn the attacks' features and detect malicious traffic. Since the Paragraph Vector is an unsupervised model, it learns the difference between anomalous traffic and benign traffic. Authors used TShark network protocol analyzer to decode network traffic. Then using Paragraph Vector (Doc2Vec algorithm)
+										 converts packets paragraphs into vector labels while identifying relationship between sentences by semantics and syntactic analyzing and construct a vector space from the corpus. Also, it used the Distributed-Bag-of-Words (DBoW) algorithm to calculate the semantic distance between words and detect anomalous traffic. Finally, it classifies the network traffic as either malicious or benign.
+										 <br>According to the available research papers and the researchers conducted it shows; 
+										 <br><br>How the data is captured and stored using an AI system.
+										 <br>How the captured data is stored in a blockchain.
+										 <br><br>Available research papers shows that they have developed AI enabled databases are built with the integration of both Relational database management systems and knowledge bases to offer a natural way to deal with information, making it easy to store, access and apply.										 
+									</p>
+									<div id="see-more" style="display:flex;" class="buttons">
+										<a>Read More</a>
+									</div>
+									<div id="see-less"  style="display:none;" class="buttons">
+										<a id="scroll4" href="#domains" >Less</a>
 									</div>
 								</section>
 
 								<section id="tab-2" class="tab-body entry-content">
-									<span class="tab-sec-icons"><img src="img/icons/magnifying-glass2.png" alt=""></span>
+									<span class="tab-sec-icons"><img src="./img/icons/magnifying-glass2.png" alt=""></span>
 									<h2>Research Problem</h2>
-									<p>When it comes to Network IDS, Most of the legacy systems are developed based on signature-based detection mechanisms. They are only rely on predefine network threats, and not able to detect zero day attacks.
+									<p>When it comes to Network IDS, Most of the legacy systems are developed based on signature-based detection mechanisms. They are only rely on predefine network threats, and not able to detect zero day attacks.</p>
 									<p>Small and mid-sized organization struggles a lot when it comes to adopting AI technologies due to the ongoing higher cost of the available systems. Also they required high end machines to run the IDS.</p>
 									<p>The Available datasets which are contain network traffics related data are quite old.</p>
 									<p>Unavailability of proper mechanisms to store analyzed network traffic data orderly and in a secured manner.</p>
 								</section>
 
 								<section id="tab-3" class="tab-body entry-content">
-									<span class="tab-sec-icons"><img src="img/icons/objective2.png" alt=""></span>
+									<span class="tab-sec-icons"><img src="./img/icons/objective2.png" alt=""></span>
 									<h2>Main Objective</h2>
 									<p>Develop a self-learning cyber-AI for real-time anomaly detection without human involvement.</p>
 									<h3>Specific Objectives</h3>
@@ -168,7 +184,7 @@
 								</section>
 
 								<section id="tab-4" class="tab-body entry-content">
-									<span class="tab-sec-icons"><img src="img/icons/idea2.png" alt=""></span>
+									<span class="tab-sec-icons"><img src="./img/icons/idea2.png" alt=""></span>
 									<h2>Solution</h2>
 									<p>The Autonomous cyber-AI is  meant to detect all kind of network threats including zero days
 										using an AI engine which is trained using deep learning techniques such as artificial neural network, natural language processing, to analyze any suspicious or abnormal behaviors in the system using the network logs.
@@ -178,23 +194,23 @@
 								</section>
 
 								<section id="tab-5" class="tab-body entry-content">
-									<span class="tab-sec-icons"><img src="img/icons/technology2.png" alt=""></span>
+									<span class="tab-sec-icons"><img src="./img/icons/technology2.png" alt=""></span>
 									<h2>Technologies</h2>
 									<div class="col">
 										<div class="technology  row">
 										<div class="tec-icons">
-											<img src="img/technologies/image-removebg-preview.png" alt="">
+											<img src="./img/technologies/image-removebg-preview.png" alt="">
 										</div>
 										<div class="tec-icons">
-											<img src="img/technologies/ELK.png" alt="">
+											<img src="./img/technologies/ELK.png" alt="">
 										</div>
 										</div>
 										<div class="technology  row">
 										<div class="tec-icons">
-											<img src="img/technologies/VertexAI-512-color.png" alt="">
+											<img src="./img/technologies/VertexAI-512-color.png" alt="">
 										</div>
 										<div class="tec-icons">
-											<img src="img/technologies/2091665.png" alt="">
+											<img src="./img/technologies/2091665.png" alt="">
 										</div>
 										</div>
 									</div>
@@ -215,7 +231,7 @@
 					</p>
 				</div>
 				<div class="main-timeline">
-				<!-- start experience section-->
+				<!-- start milestone section-->
 				
 					<div class="timeline wow fadeInLeft" data-wow-delay="0.3s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
 						<div class="icon"></div>
@@ -237,9 +253,9 @@
 					</div>
 				
 			
-				<!-- end experience section-->
+				<!-- end milestone section-->
 				
-				<!-- start experience section-->
+				<!-- start milestone section-->
 				
 					<div class="timeline wow fadeInRight" data-wow-delay="0.3s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
 						<div class="icon"></div>
@@ -261,9 +277,9 @@
 							</div>
 						</div>
 				
-					<!-- end experience section-->
+					<!-- end milestone section-->
 				
-					<!-- start experience section-->
+					<!-- start milestone section-->
 					
 						<div class="timeline wow fadeInLeft" data-wow-delay="0.3s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
 							<div class="icon"></div>
@@ -285,9 +301,9 @@
 							</div>
 						</div>
 					
-					<!-- end experience section-->
+					<!-- end milestone section-->
 				
-					<!-- start experience section-->
+					<!-- start milestone section-->
 						<div class="timeline wow fadeInRight" data-wow-delay="0.3s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
 							<div class="icon"></div>
 							<div class="date-content">
@@ -311,9 +327,9 @@
 								</div>
 							</div>
 						</div>
-					<!-- end experience section-->
+					<!-- end milestone section-->
 
-					<!-- start experience section-->
+					<!-- start milestone section-->
 					<div class="timeline wow fadeInLeft" data-wow-delay="0.3s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
 						<div class="icon"></div>
 						<div class="date-content">
@@ -332,9 +348,9 @@
                     		</p>
 						</div>
 					</div>
-					<!-- end experience section-->
+					<!-- end milestone section-->
 
-					<!-- start experience section-->
+					<!-- start milestone section-->
 					<div class="timeline wow fadeInRight" data-wow-delay="0.3s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
 						<div class="icon"></div>
 						<div class="date-content">
@@ -353,7 +369,7 @@
                     		</p>
 						</div>
 					</div>
-					<!-- end experience section-->
+					<!-- end milestone section-->
 				
 				</div>
 			</div>
@@ -373,8 +389,8 @@
 						<div class="block text-center wow fadeInUp" data-wow-delay="0.4s">
 							<ul>
 								<li>
-									<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/cdap_sliit_lk/EuCZ6cjxnWZEkZTVYbJ7HoUBFIlGjfUQte3Q13dqQzaY_Q?e=R79FAD" target="_blank">
-										<img alt="project-proposal" class="card-img" src="./img/document/doc-proposal.png">
+									<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it18175530_my_sliit_lk/EmUKB6bcxPdKn-aXya3A1fQByW5YsrCGoU1gDOlMRoY_iA?e=8IMaxl" target="_blank">
+										<img alt="project-proposal" class="card-img" src="./img/document/propsal_doc.jpg">
 									</a>
 								</li>
 								<li>
@@ -382,10 +398,10 @@
 								</li>
 								<li><p>Details of Intial stage of the research</p></li>
 								<li>
-									<a href="#" class="btn btn-view">View</a>
+									<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it18175530_my_sliit_lk/EmUKB6bcxPdKn-aXya3A1fQByW5YsrCGoU1gDOlMRoY_iA?e=8IMaxl" target="_blank" class="btn btn-view">View</a>
 								</li>
 								<li>
-									<a href="#" class="btn btn-download">Download</a>
+									<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it18175530_my_sliit_lk/EmUKB6bcxPdKn-aXya3A1fQByW5YsrCGoU1gDOlMRoY_iA?e=8IMaxl" target="_blank" class="btn btn-download">Download</a>
 								</li>
 							</ul>
 						</div>
@@ -394,8 +410,8 @@
 						<div class="block text-center wow fadeInUp" data-wow-delay="0.4s">
 							<ul>
 								<li>
-									<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/cdap_sliit_lk/EuCZ6cjxnWZEkZTVYbJ7HoUBFIlGjfUQte3Q13dqQzaY_Q?e=R79FAD" target="_blank">
-										<img alt="status-documents" class="card-img" src="./img/document/doc-status.png">
+									<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it18175530_my_sliit_lk/EoMERZT-iRJAsloh8IY87rwBLlnavt1u7ZAxvHWQDtWODg?e=pzrwG3" target="_blank">
+										<img alt="status-documents" class="card-img" src="./img/document/status_doc.jpg">
 									</a>
 								</li>
 								<li>
@@ -403,10 +419,10 @@
 								</li>
 								<li><p>Details of all the stages of the research</p></li>
 								<li>
-									<a href="#" class="btn btn-view">View</a>
+									<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it18175530_my_sliit_lk/EoMERZT-iRJAsloh8IY87rwBLlnavt1u7ZAxvHWQDtWODg?e=pzrwG3" target="_blank" class="btn btn-view">View</a>
 								</li>
 								<li>
-									<a href="#" class="btn btn-download">Download</a>
+									<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it18175530_my_sliit_lk/EoMERZT-iRJAsloh8IY87rwBLlnavt1u7ZAxvHWQDtWODg?e=pzrwG3" target="_blank" class="btn btn-download">Download</a>
 								</li>
 							</ul>
 						</div>
@@ -415,8 +431,8 @@
 						<div class="block text-center wow fadeInUp" data-wow-delay="0.4s">
 							<ul>
 								<li>
-									<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/cdap_sliit_lk/EuCZ6cjxnWZEkZTVYbJ7HoUBFIlGjfUQte3Q13dqQzaY_Q?e=R79FAD" target="_blank">
-										<img alt="project-thesis" class="card-img" src="./img/document/doc-thesis.png">
+									<a href="https://mysliit-my.sharepoint.com/:w:/g/personal/it18175530_my_sliit_lk/EUH48qLDcdBCuGEGbm0c7EQBWAbpr0LJ4E7dQmqq53ml3g?e=dsPJNC" target="_blank">
+										<img alt="project-thesis" class="card-img" src="./img/document/thesis_doc.jpg">
 									</a>
 								</li>
 								<li>
@@ -424,10 +440,10 @@
 								</li>
 								<li><p>All the Final thesis of the research</p></li>
 								<li>
-									<a href="#" class="btn btn-view">View</a>
+									<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it18175530_my_sliit_lk/EsLJ5ZlBGUJEnSh2qYN3_M8BAuK24R_AhFeXG5CcYuWHeA?e=bAz2zx" target="_blank" class="btn btn-view">View</a>
 								</li>
 								<li>
-									<a href="#" class="btn btn-download">Download</a>
+									<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it18175530_my_sliit_lk/EsLJ5ZlBGUJEnSh2qYN3_M8BAuK24R_AhFeXG5CcYuWHeA?e=bAz2zx" target="_blank" class="btn btn-download">Download</a>
 								</li>
 							</ul>
 						</div>
@@ -436,8 +452,8 @@
 						<div class="block text-center wow fadeInUp" data-wow-delay="0.4s">
 							<ul>
 								<li>
-									<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/cdap_sliit_lk/EuCZ6cjxnWZEkZTVYbJ7HoUBFIlGjfUQte3Q13dqQzaY_Q?e=R79FAD" target="_blank">
-										<img alt="project-charter" class="card-img" src="./img/document/doc-charter.png">
+									<a href="https://mysliit-my.sharepoint.com/:b:/g/personal/it18175530_my_sliit_lk/EXBwrdmDkyhBrcoy-24vS0sBbbv5FsIJUdbrYDsn619K5w?e=MLTeIv" target="_blank">
+										<img alt="project-charter" class="card-img" src="./img/document/charter_doc.jpg">
 									</a>
 								</li>
 								<li>
@@ -445,10 +461,10 @@
 								</li>
 								<li><p>Intial steps of drafting the research</p></li>
 								<li>
-									<a href="#" class="btn btn-view">View</a>
+									<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it18175530_my_sliit_lk/El2Yqf5mI9RCgbF52JJESg0BK8qvSmI1zDUIhJEm5_TmLA?e=ePkyJW" target="_blank" class="btn btn-view">View</a>
 								</li>
 								<li>
-									<a href="#" class="btn btn-download">Download</a>
+									<a href="https://mysliit-my.sharepoint.com/:b:/g/personal/it18175530_my_sliit_lk/EXBwrdmDkyhBrcoy-24vS0sBbbv5FsIJUdbrYDsn619K5w?e=MLTeIv" target="_blank" class="btn btn-download">Download</a>
 								</li>
 							</ul>
 						</div>
@@ -471,59 +487,59 @@
 						<div id="blog-post1" class="Presentaion">
 							<div class="col-lg-3 col-md-3 col-sm-6">
 								<div class="block wow fadeInLeft" data-wow-delay="0.4s">
-									<img src="img/presentation/proposal.jpg" alt="" class="img-responsive">
+									<img src="./img/presentation/proposal.jpg" alt="" class="img-responsive">
 									<div class="content">
-										<h4><a href="blog.html">Proposal Presentation</a></h4>
+										<h4><a href="https://mysliit-my.sharepoint.com/:p:/g/personal/it18175530_my_sliit_lk/EUcHtMw3ZN9JuRm6kf0O-FAByz6QOODPaGJlU5obmhlmaQ?e=JA01n3" target="_blank">Proposal Presentation</a></h4>
 										
 										<p>
 											Initial proposal for development of the research project
 										</p>
-										<p><a href="#" class="btn btn-view">View</a></p>
-										<a href="#" class="btn btn-download">Download</a>
+										<p><a href="https://mysliit-my.sharepoint.com/:p:/g/personal/it18175530_my_sliit_lk/EUcHtMw3ZN9JuRm6kf0O-FAByz6QOODPaGJlU5obmhlmaQ?e=JA01n3" target="_blank" class="btn btn-view">View</a></p>
+										<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it18175530_my_sliit_lk/EtLYtxkvZmxKrKQu8rOT-BMB3Rve8TGhWymAGn2Lu0YKqg?e=PhCi4l" target="_blank" class="btn btn-download">Download</a>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-6">
 								<div class="block wow fadeInLeft" data-wow-delay="0.4s">
-									<img src="img/presentation/pp1.jpg" alt="" class="img-responsive">
+									<img src="./img/presentation/pp1.jpg" alt="" class="img-responsive">
 									<div class="content">
-										<h4><a href="blog.html">Progress Presentation 1</a></h4>
+										<h4><a href="https://mysliit-my.sharepoint.com/:p:/g/personal/it18175530_my_sliit_lk/EVyQ_mMljJJAm1vL826wYTwBJnvToOd_ETSo-q5sZ0YptQ?e=QVhCv1" target="_blank">Progress Presentation 1</a></h4>
 										
 										<p>
 											Evaluation of 50% Development of the Overall Project
 										</p>
-										<p><a href="#" class="btn btn-view">View</a></p>
-										<a href="#" class="btn btn-download">Download</a>
+										<p><a href="https://mysliit-my.sharepoint.com/:p:/g/personal/it18175530_my_sliit_lk/EVyQ_mMljJJAm1vL826wYTwBJnvToOd_ETSo-q5sZ0YptQ?e=QVhCv1" target="_blank" class="btn btn-view">View</a></p>
+										<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it18175530_my_sliit_lk/Eo4EGNAvfx1NsnKSbKDB1vMBHuTIPHE_Cx6Pm7OVLNO8IQ?e=fWTzeo" target="_blank" class="btn btn-download">Download</a>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-6">
 								<div class="block wow fadeInRight" data-wow-delay="0.4s">
-									<img src="img/presentation/pp2.jpg" alt="" class="img-responsive">
+									<img src="./img/presentation/pp2.jpg" alt="" class="img-responsive">
 									<div class="content">
-										<h4><a href="blog.html">Progress Presentation 2</a></h4>
+										<h4><a href="https://mysliit-my.sharepoint.com/:p:/g/personal/it18175530_my_sliit_lk/ERWHqQpT7EBFtC00V9pjXcwBjUd1T3QTNLj2yGkFBHYfkw?e=D1lORR" target="_blank">Progress Presentation 2</a></h4>
 										
 										<p>
 											Evaluation of 90% Completion Of The Overall Project
 										</p>
-										<p><a href="#" class="btn btn-view">View</a></p>
-										<a href="#" class="btn btn-download">Download</a>
+										<p><a href="https://mysliit-my.sharepoint.com/:p:/g/personal/it18175530_my_sliit_lk/ERWHqQpT7EBFtC00V9pjXcwBjUd1T3QTNLj2yGkFBHYfkw?e=D1lORR" target="_blank" class="btn btn-view">View</a></p>
+										<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it18175530_my_sliit_lk/EsmpIYsmQr9Fp8sLbYUUQI4BXryXg-9Qs8kANTH5Z6TqXQ?e=qehfcq" target="_blank" class="btn btn-download">Download</a>
 										
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-6">
 								<div class="block wow fadeInRight" data-wow-delay="0.4s">
-									<img src="img/presentation/final.jpg" alt="" class="img-responsive">
+									<img src="./img/presentation/final.jpg" alt="" class="img-responsive">
 									<div class="content">
-										<h4><a href="blog.html">Final Presentation</a></h4>
+										<h4><a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it18175530_my_sliit_lk/EnIZE8fRccJKpgGjgpMcC44BZFrbG3_c64eTYCH6PjTpgw?e=l8Itpa" target="_blank">Final Presentation</a></h4>
 										
 										<p>
 											Evaluation of 100% Completion of the Overall Project
 										</p>
 										
-										<p><a href="#" class="btn btn-view">View</a></p>
-										<a href="#" class="btn btn-download">Download</a>
+										<p><a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it18175530_my_sliit_lk/EnIZE8fRccJKpgGjgpMcC44BZFrbG3_c64eTYCH6PjTpgw?e=l8Itpa" target="_blank" class="btn btn-view">View</a></p>
+										<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it18175530_my_sliit_lk/EnIZE8fRccJKpgGjgpMcC44BZFrbG3_c64eTYCH6PjTpgw?e=l8Itpa" target="_blank" class="btn btn-download">Download</a>
 										
 									</div>
 								</div>
@@ -561,9 +577,9 @@
 												</div>
 											</div>
 											<div class="icons">
-												<a class="c1" href="#"><span class="fab fa-linkedin"></span></a>
-												<a class="c2" href="#"><span class="fab fa-twitter"></span></a>
-												<a class="c3" href="#"><span class="fab fa-facebook-f"></span></a>
+												<a class="c1" href="https://www.linkedin.com/in/chethana-liyanapathirana/" target="_blank"><span class="fab fa-linkedin"></span></a>
+												<a class="c2" href="https://twitter.com/ChethanaLiyana4" target="_blank"><span class="fab fa-twitter"></span></a>
+												<a class="c3" href="https://github.com/" target="_blank"><span class="fab fa-github"></span></a>
 											</div>											
 										</div>									
 									</div>
@@ -586,9 +602,9 @@
 												</div>
 											</div>
 											<div class="icons">
-												<a class="c1" href="#"><span class="fab fa-linkedin"></span></a>
-												<a class="c2" href="#"><span class="fab fa-twitter"></span></a>
-												<a class="c3" href="#"><span class="fab fa-facebook-f"></span></a>
+												<a class="c1" href="https://www.linkedin.com/in/lakmalr/" target="_blank"><span class="fab fa-linkedin"></span></a>
+												<a class="c2" href="https://twitter.com/lakmalr" target="_blank"><span class="fab fa-twitter"></span></a>
+												<a class="c3" href="https://github.com/lakmalrupasinghe" target="_blank"><span class="fab fa-github"></span></a>
 											</div>
 										</div>
 									</div>
@@ -620,9 +636,9 @@
 											</div>
 										</div>
 										<div class="icons icons-team">
-											<a class="c1" href="#"><span class="fab fa-linkedin"></span></a>
-											<a class="c2" href="#"><span class="fab fa-twitter"></span></a>
-											<a class="c3" href="#"><span class="fab fa-facebook-f"></span></a>
+											<a class="c1" href="https://www.linkedin.com/in/hashmi-hussain-90425217b/" target="_blank"><span class="fab fa-linkedin"></span></a>
+											<a class="c2" href="https://twitter.com/HashmiHussain7" target="_blank"><span class="fab fa-twitter"></span></a>
+											<a class="c3" href="https://github.com/hashmi12345" target="_blank"><span class="fab fa-github"></span></a>
 										</div>											
 									</div>									
 								</div>
@@ -645,9 +661,9 @@
 											</div>
 										</div>
 										<div class="icons icons-team">
-											<a class="c1" href="#"><span class="fab fa-linkedin"></span></a>
-											<a class="c2" href="#"><span class="fab fa-twitter"></span></a>
-											<a class="c3" href="#"><span class="fab fa-facebook-f"></span></a>
+											<a class="c1" href="https://www.linkedin.com/in/madhuvantha-kan/" target="_blank"><span class="fab fa-linkedin"></span></a>
+											<a class="c2" href="https://twitter.com/n_a_w_w_a" target="_blank"><span class="fab fa-twitter"></span></a>
+											<a class="c3" href="https://github.com/Nawod" target="_blank"><span class="fab fa-github"></span></a>
 										</div>
 									</div>
 								</div>
@@ -670,9 +686,9 @@
 											</div>
 										</div>
 										<div class="icons icons-team">
-											<a class="c1" href="#"><span class="fab fa-linkedin"></span></a>
-											<a class="c2" href="#"><span class="fab fa-twitter"></span></a>
-											<a class="c3" href="#"><span class="fab fa-facebook-f"></span></a>
+											<a class="c1" href="https://www.linkedin.com/in/umindu-liyanage-352522172/" target="_blank"><span class="fab fa-linkedin"></span></a>
+											<a class="c2" href="https://twitter.com/umindu12" target="_blank"><span class="fab fa-twitter"></span></a>
+											<a class="c3" href="https://github.com/lavasquabble" target="_blank"><span class="fab fa-github"></span></a>
 										</div>
 									</div>
 								</div>
@@ -695,9 +711,9 @@
 											</div>
 										</div>
 										<div class="icons icons-team">
-											<a class="c1" href="#"><span class="fab fa-linkedin"></span></a>
-											<a class="c2" href="#"><span class="fab fa-twitter"></span></a>
-											<a class="c3" href="#"><span class="fab fa-facebook-f"></span></a>
+											<a class="c1" href="https://www.linkedin.com/in/dakshin-tharusha-a3582819a" target="_blank"><span class="fab fa-linkedin"></span></a>
+											<a class="c2" href="https://twitter.com/" target="_blank"><span class="fab fa-twitter"></span></a>
+											<a class="c3" href="https://www.github.com/dakshintharusha" target="_blank"><span class="fab fa-github"></span></a>
 										</div>
 									</div>
 								</div>
@@ -761,23 +777,22 @@
 
 
 		<!-- load Js -->
-		<script src="js/jquery-1.11.3.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+		<script src="./js/jquery-1.11.3.min.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"></script>
-		<script src="js/waypoints.min.js"></script>
-		<script src="js/lightbox.js"></script>
-		<script src="js/jquery.counterup.min.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/html5lightbox.js"></script>
-		<script src="js/jquery.mixitup.js"></script>
-		<script src="js/wow.min.js"></script>
-		<script src="js/jquery.scrollUp.js"></script>
-		<script src="js/jquery.sticky.js"></script>
-		<script src="js/jquery.nav.js"></script>
-		<script src="js/main.js"></script>
+		<script src="./js/waypoints.min.js"></script>
+		<script src="./js/jquery.counterup.min.js"></script>
+		<script src="./js/owl.carousel.min.js"></script>
+		<script src="./js/html5lightbox.js"></script>
+		<script src="./js/jquery.mixitup.js"></script>
+		<script src="./js/wow.min.js"></script>
+		<script src="./js/jquery.scrollUp.js"></script>
+		<script src="./js/jquery.sticky.js"></script>
+		<script src="./js/jquery.nav.js"></script>
+		<script src="./js/main.js"></script>
 		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
-		<script src="js/app.js"></script>
-		<script src="js/profile_card.js"></script>
+		<script src="./js/app.js"></script>
+		<script src="./js/profile_card.js"></script>
 
 	</body>
 </html>
